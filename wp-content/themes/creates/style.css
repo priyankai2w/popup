@@ -1,0 +1,34 @@
+/*
+Theme Name: News_theme
+Theme URI: http://www.onextrapixel.com
+Description: A clean and minimal theme that is completely compatible with WordPress 3.0
+Author: Keenan Payne
+Author URI: http://slackrmedia.com
+Version: 1.0
+*/
+
+
+ 
+ 
+
+ 
+h1 {
+    font-size: 54px;
+}
+ 
+h3 {
+    font-size: 24px;
+}
+
+ 
+#header{
+    width: 750px;
+    height: 100px;
+ 
+}
+#wrapper {
+    width: 100%;
+    max-width:2000px;
+    min-width:940px;
+}
+

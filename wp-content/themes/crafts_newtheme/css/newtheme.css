@@ -1,0 +1,42 @@
+.navbar-nav ul li{margin: 0; padding: 0; 
+  list-style-type: none; list-style-image: none; }
+
+.navbar li {
+  display: inline;
+  float:left;
+   }
+
+.navbar ul li a {
+   border-left: 1px solid;
+    color: blue;
+    display: inline;
+    float: right;
+    margin: 4px;
+    padding: 6px 11px;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: purple;
+  background: #08BBD2; }
+
+  .navbar-collapse{
+    display: block;
+    padding-top: 5px;
+}
+
+.navbar, .navbar ul {
+  list-style:none;
+  margin-right: -30px;
+}
+
+.navbar li:hover ul, .navbar li.over ul {
+  display:block;
+}
+.navbar li:hover ul ul, .navbar li.over ul ul {
+  display:none;
+}
+/* SHOW SUBMENU 2 */
+/*.navbar ul li:hover ul, .navbar ul li.over ul {
+  display:block;
+}
+
